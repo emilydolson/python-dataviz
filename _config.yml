@@ -67,5 +67,5 @@ exclude:
 highlighter: false
 
 github:
-  url: '/python-dataviz/'
+  url: '/python-dataviz'
 
