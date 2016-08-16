@@ -6,7 +6,7 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Lesson Title"
+title: "Data wrangling and visualization with Python"
 
 # Contact email address.
 email: lessons@software-carpentry.org
