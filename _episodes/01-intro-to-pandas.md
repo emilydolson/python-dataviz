@@ -1,14 +1,13 @@
 ---
-title: "Loading data"
+title: "Intro to Pandas"
 teaching: 10
 exercises: 2
 questions:
-- "How to write a lesson using RMarkdown?"
+- "How can I neatly wrangle data in Python?"
 objectives:
-- "Explain how to use RMarkdown with the new lesson template."
-- "Demonstrate how to include pieces of code, figures, and challenges."
+- "Explain how to use Pandas to import, plot, and manipulate data."
 keypoints:
-- "It shouldn't be difficult"
+- "A DataFrame is like an array that gives you more control of your data"
 ---
 
 You've already seen numpy's `loadtxt` function, which is a great way to quickly import data. When you're going to be doing heavy-duty data-wrangling, though, you often want a tool with a little more power, even if it comes at the cost of additional complexity. By far the most popular such tool is Pandas.
@@ -76,6 +75,14 @@ Adding `.iloc` may seem like an arbitrary and cumbersome step, but there's a goo
   ~~~
   {: .python}
 
+  We've only imported one of our data files! We could type out all of their names individually to import them, but there's a better way: the `glob` library. As strange a name as it has, the glob library is incredibly useful for grabbing lists of files that match a pattern:
+
+    ~~~
+    data[data[1] > 0]
+    ~~~
+    {: .python}
+
+
 ~~~
 > ## Challenge Title
 >
@@ -91,10 +98,3 @@ Adding `.iloc` may seem like an arbitrary and cumbersome step, but there's a goo
 {: .challenge}
 ~~~
 {: .source}
-
-Pandas has a ton of cool features, but lets not get too distracted! We've only imported one of our data files! We could type out all of their names individually to import them, but there's a better way: the `glob` library. As strange a name as it has, the glob library is incredibly useful for grabbing lists of files that match a pattern:
-
-  ~~~
-  data[data[1] > 0]
-  ~~~
-  {: .python}
