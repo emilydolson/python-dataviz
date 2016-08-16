@@ -56,8 +56,7 @@ data = data[(data.T!=0).any()]
 
 
 
-~~~
-> ## Challenge Title
+> ## New files
 >
 > There are three data files that we haven't played with yet - the three small ones. Let's pretend that we are only interested in the ones that don't start with 0s. Read them all into a single DataFrame (assume that each of them have the same three columns), remove the rows that start with 0s, and make a line plot showing the average value across the three columns.
 >
@@ -75,5 +74,3 @@ data = data[(data.T!=0).any()]
 > > {: .output}
 > {: .solution}
 {: .challenge}
-~~~
-{: .source}

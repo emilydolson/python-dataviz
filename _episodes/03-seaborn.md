@@ -40,7 +40,7 @@ sns.tsplot(data=data, time="day", value="inflammation", unit="patient")
 ~~~
 {: .python}
 
-~~~
+
 > ## Making a histogram
 >
 > Seaborn has a function called distplot that makes a histogram. See if you can use the documentation to figure out how to make a histogram of the various inflammation values.
@@ -53,5 +53,3 @@ sns.tsplot(data=data, time="day", value="inflammation", unit="patient")
 > > {: .output}
 > {: .solution}
 {: .challenge}
-~~~
-{: .source}

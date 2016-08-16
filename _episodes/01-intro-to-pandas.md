@@ -83,8 +83,8 @@ Adding `.iloc` may seem like an arbitrary and cumbersome step, but there's a goo
     {: .python}
 
 
-~~~
-> ## Challenge Title
+
+> ## Line plot
 >
 > Make a line plot of the inflammation values for the first 5 patients over the course of the experiment.
 >
@@ -96,5 +96,3 @@ Adding `.iloc` may seem like an arbitrary and cumbersome step, but there's a goo
 > > {: .output}
 > {: .solution}
 {: .challenge}
-~~~
-{: .source}
