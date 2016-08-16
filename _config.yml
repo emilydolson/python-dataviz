@@ -67,5 +67,5 @@ exclude:
 highlighter: false
 
 github:
-  url: '/swc-releases/2016.06/lesson-example'
+  url: '/python-dataviz/'
 
