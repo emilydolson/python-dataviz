@@ -8,7 +8,7 @@ objectives:
 - "Explain how to use more complex Seaborn visualizations."
 keypoints:
 - "Seaborn has a ton of really pretty visualizations that you can pretty much just drop your DataFrame into"
-
+---
 So far, we've only been using a fraction of pandas' abilities. One of the coolest things that it can do is deal nicely with column names. So lets load in a dataset that takes advantage of that.
 
 ~~~
